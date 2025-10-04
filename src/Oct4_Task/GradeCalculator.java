@@ -7,18 +7,18 @@ public class GradeCalculator {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Score");
-        int num = sc.nextInt();
+        int score = sc.nextInt();
 
-        if(num>= 90 && num<=100){
+        if(score>= 90 && score<=100){
             System.out.println("Grade -> A");
         }
-        else if(num>=80 && num<=89){
+        else if(score>=80 && score<=89){
             System.out.println("Grade -> B");
         }
-        else if(num>=70 && num<=79){
+        else if(score>=70 && score<=79){
             System.out.println("Grade -> C");
         }
-        else if(num>=60 && num<=69){
+        else if(score>=60 && score<=69){
             System.out.println("Grade -> D");
         }
         else{
